@@ -1,0 +1,57 @@
+.grid-contents{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+}
+
+.grid-item-last{
+    grid-column: 1 / 1;
+}
+
+
+/*.form-contents input{
+    padding: 15px;
+    border: 2px solid #ccc;
+    font-size: 1em;
+    border-radius: 3px;
+    background: #eee;
+}*/
+
+.bg-color{
+    padding: 15px;
+    width: 60%;
+    border: 2px solid #ccc;
+    font-size: 1em;
+    border-radius: 3px;
+    background: #eee;
+    outline: none;
+}
+
+.form-contents input::placeholder{
+    font-size: 1em;
+}
+
+.required{
+    color: red;
+}
+
+.img{
+    border: none;
+    background: #eee;
+}
+
+input [type="checkbox"]{
+    background: blue;
+    padding: 10px;
+}
+
+.btn__df{
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.color-red{
+    background-color: #c0392b;
+    color: #fff;
+}
